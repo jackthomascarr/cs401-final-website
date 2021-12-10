@@ -3,6 +3,7 @@
     overflow: hidden;
 }
 
+
 .navbar a {
     float: left;
     color: black;
@@ -21,4 +22,8 @@
 .navbar a.active {
     background-color: #E78B48;
     color: white;
+}
+
+.welcome {
+    text-align: center;
 }
