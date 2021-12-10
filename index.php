@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Jack's Blogapalooza</title>
   <link rel = "icon" href =
-  "https://github.com/jackthomascarr/cs401-final-website/blob/master/WIN_20210622_19_02_08_Pro%20(2).jpghttps://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+  "WIN_20210622_19_02_08_Pro (2).jpg"
           type = "image/x-icon">
 </head>
 
