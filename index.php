@@ -21,8 +21,8 @@
   </div>
 
   <div class="welcome">
-    <h2>Responsive Topnav Example</h2>
-    <p>Resize the browser window to see how it works.</p>
+    <h2>Jack's Blogapalooza</h2>
+    <p>A site where you can view, create, edit, and delete blog posts</p>
   </div>
   
 </body>
