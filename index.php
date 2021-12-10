@@ -3,7 +3,10 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <title>Hello World</title>
+  <title>Jack's Blogapalooza</title>
+  <link rel = "icon" href =
+  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png"
+          type = "image/x-icon">
 </head>
 
 
