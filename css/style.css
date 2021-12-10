@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+h1{
+    padding: 0px 0px;
+}
+
 
 .navbar a {
     float: left;
