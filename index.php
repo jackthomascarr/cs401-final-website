@@ -21,7 +21,7 @@
   </div>
 
   <div class="welcome">
-    <h1> <span><img src="WIN_20210622_19_02_08_Pro (2).jpg" alt="Intro photo"></span></h1>
+    <h1> <span><img src="WIN_20210622_19_02_08_Pro (2).jpg" alt="Intro photo" width="25%" height="25%"></span></h1>
     <h2>Jack's Blogapalooza</h2>
     <p>A site where you can view, create, edit, and delete blog posts</p>
   </div>
