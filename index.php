@@ -13,7 +13,7 @@
 
 <body>
   <div class="navbar" id="navId">
-    <img href= "WIN_20210622_19_02_08_Pro (2).jpg">
+    <img src="WIN_20210622_19_02_08_Pro (2).jpg" alt="blog logo">
     <a href="#home" class="active">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
