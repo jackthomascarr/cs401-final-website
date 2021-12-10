@@ -12,12 +12,11 @@
 
 
 <body>
-  <div class="topnav" id="myTopnav">
+  <div class="navbar" id="navId">
     <a href="#home" class="active">Home</a>
-    <a href="#contact">Contact</a>
     <a href="#about">About</a>
+    <a href="#contact">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
     </a>
   </div>
 
