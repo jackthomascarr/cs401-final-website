@@ -41,7 +41,8 @@ input {
 }
 
 .postButton {
-    position: center;
-    color: #7deb34;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7deb34;
 }
 
