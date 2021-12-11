@@ -1,8 +1,16 @@
+
+
 function helloJS()
 {
     alert("The Dude Abides FOR REAL! (this is from the file js/main.js)");
-
 }
+
+const blogPosts = [];
+
+const post = {
+    blogTitle: "",
+    blogBody: ""
+};
 
 function myFunction() {
     var x = document.getElementById("navId");
@@ -35,7 +43,9 @@ function getInputValue(){
     // Selecting the input element and get its value
     inputVal = document.getElementById("textbox").value;
     title = document.getElementById("title").value;
+    post.blogTitle = title;
+    post.blogBody = inputVal;
 
-    alert(title);
+    alert(post);
 
 }
