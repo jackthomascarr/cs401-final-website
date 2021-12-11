@@ -29,7 +29,10 @@
       <label for="message" style="text-align:center">Tell us about the time you did that thing!</label>
           <br><br>
 
-          <!-- Textbox -->
+          <!-- Title Textbox -->
+          <label for="title">Title:</label><br>
+           <input type="text" id="title" name="title"><br>
+          <!-- Body Textbox -->
           <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
           <br><br>
 

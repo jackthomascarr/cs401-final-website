@@ -24,10 +24,13 @@ function createNewBlog() {
     else document.getElementById("createButton").value = "Cancel";
 }
 
+var inputVal;
+var title;
 function getInputValue(){
     // Selecting the input element and get its value
-    var inputVal = document.getElementById("textbox").value;
+    inputVal = document.getElementById("textbox").value;
+    title = document.getElementById("title").value;
 
-    // Displaying the value
-    alert(inputVal);
+    alert(title);
+
 }
