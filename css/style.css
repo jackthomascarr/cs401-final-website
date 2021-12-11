@@ -41,8 +41,10 @@ input {
 }
 
 .postButton {
-    margin-left: auto;
-    margin-right: auto;
     background-color: #7deb34;
+}
+
+.createBlog {
+    text-align: center;
 }
 
