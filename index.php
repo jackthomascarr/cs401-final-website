@@ -46,18 +46,6 @@
   </div>
 
       <table id="blogTable">
-      <tr>
-        <td>Row 1</td>
-        <td><input type="button" value="Delete" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"></td>
-      </tr>
-      <tr>
-        <td>Row 2</td>
-        <td><input type="button" value="Delete" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"></td>
-      </tr>
-      <tr>
-        <td>Row 3</td>
-        <td><input type="button" value="Delete" onclick="deleteRow(this.parentNode.parentNode.rowIndex)"></td>
-      </tr>
       </table>
 
 

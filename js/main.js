@@ -49,25 +49,11 @@ function getInputValue(){
     var table = document.getElementById("blogTable");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
-    cell1.innerHTML = "<h2>" + post.blogTitle + "</h2>" +"<p>" + post.blogBody + "</p>";
+    cell1.innerHTML = "<td>" + post.blogTitle + "</td>"
+        + "<td><input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this.parentNode.parentNode.rowIndex)\"></td>"
+        + "<p>" + post.blogBody + "</p>";
 }
 
-var index, table = document.getElementById('blogTable');
-for(var i = 1; i < table.rows.length; i++)
-{
-    table.rows[i].cells[3].onclick = function()
-    {
-        var c = confirm("do you want to delete this row");
-        if(c === true)
-        {
-            index = this.parentElement.rowIndex;
-            table.deleteRow(index);
-        }
-
-        //console.log(index);
-    };
-
-}
 
 function deleteRow(i){
     document.getElementById('blogTable').deleteRow(i)
