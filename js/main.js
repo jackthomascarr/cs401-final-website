@@ -26,7 +26,7 @@ function createNewBlog() {
 
 function getInputValue(){
     // Selecting the input element and get its value
-    var inputVal = document.getElementById("myInput").value;
+    var inputVal = document.getElementById("postButton").value;
 
     // Displaying the value
     alert(inputVal);
