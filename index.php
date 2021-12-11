@@ -24,6 +24,7 @@
     <h2>Blog Name</h2>
   </div>
 
+  <input type="button" name="create" id="createButton" value="Create New" onclick="createNewBlog()" />
   <div id="createBlog"  style="display:none;" class="answer_list" >
       <label for="message">Enter Your Message:</label>
           <br><br>
@@ -39,7 +40,7 @@
               append our data from text box -->
           <div id="message"></div>
       </div>
-      <input type="button" name="create" id="createButton" value="Create New" onclick="createNewBlog()" />
+
 </body>
   <script src="js/main.js"></script>
 </html>
