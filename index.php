@@ -39,7 +39,7 @@
               append our data from text box -->
           <div id="message"></div>
       </div>
-      <input type="button" name="create" value="Create New " onclick="createNewBlog()" />
+      <input type="button" name="create" id="createButton" value="Create New" onclick="createNewBlog()" />
 </body>
   <script src="js/main.js"></script>
 </html>

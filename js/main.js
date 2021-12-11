@@ -24,6 +24,7 @@ var textBox = document.getElementById("textbox");
 
 create.addEventListener("click", function () {
     var str = textBox.value;
+    create.value = "Cancel"
     console.log(str);
 });
 
