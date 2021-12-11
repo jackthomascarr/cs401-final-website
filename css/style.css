@@ -54,6 +54,10 @@ input {
 }
 
 .createBlog {
+    text-align: center;
+}
+
+.createButton {
     border: none;
     color: black;
     padding: 10px 24px;
