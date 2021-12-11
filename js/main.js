@@ -19,9 +19,14 @@ function createNewBlog() {
     else document.getElementById('createBlog').style.display = "none";
 
 
-    if (document.getElementById("createButton").value =="Cancel")
+    if (document.getElementById("createButton").value =="Cancel") {
         document.getElementById("createButton").value = "Create New Post";
-    else document.getElementById("createButton").value = "Cancel";
+        document.getElementById("createButton").style = "background-color: none";
+    }
+    else {
+        document.getElementById("createButton").value = "Cancel";
+        document.getElementById("createButton").style = "background-color: red";
+    }
 }
 
 var inputVal;
