@@ -27,7 +27,7 @@
   <input type="button" name="create" id="createButton" value="Create New Post" onclick="createNewBlog()" />
   <br>
   <div id="createBlog"  style="display:none;" class="answer_list" >
-      <label for="message" class="createPostMessage" style="text-align:center">Tell us about the time you did that thing!</label>
+      <h2 style="text-align:center">Tell us about the time you did that thing!</h2>
           <br><br>
 
            <input type="text" id="title" name="title" placeholder="Enter a Funky Title Here!"><br>
