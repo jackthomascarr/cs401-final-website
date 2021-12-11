@@ -12,22 +12,34 @@
 
 
 <body>
-    <div id="createBlog"  style="display:none;" class="answer_list" >
-    <label for="message">Enter Your Message:</label>
-        <br><br>
+  <div class="navbar" id="navId">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    </a>
+  </div>
 
-        <!-- Textbox -->
-        <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
-        <br><br>
+  <div class="header">
+    <h2>Blog Name</h2>
+  </div>
 
-        <!-- Button we want to trigger on ENTER in Textbox -->
-        <button id="button">GeeksForGeeks</button>
+  <div id="createBlog"  style="display:none;" class="answer_list" >
+      <label for="message">Enter Your Message:</label>
+          <br><br>
 
-        <!-- The div element in which we will
-            append our data from text box -->
-        <div id="message"></div>
-    </div>
-    <input type="button" name="create" value="Show Div" onclick="createNewBlog()" />
+          <!-- Textbox -->
+          <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
+          <br><br>
+
+          <!-- Button we want to trigger on ENTER in Textbox -->
+          <button id="button">GeeksForGeeks</button>
+
+          <!-- The div element in which we will
+              append our data from text box -->
+          <div id="message"></div>
+      </div>
+      <input type="button" name="create" value="Create New " onclick="createNewBlog()" />
 </body>
   <script src="js/main.js"></script>
 </html>
