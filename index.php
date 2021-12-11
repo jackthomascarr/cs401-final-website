@@ -26,7 +26,7 @@
 
   <div class="row">
     <form action="/action_page.php">
-      <input type="text" id="blogentry" name="blogentry"><br><br>
+      <textarea name="blogentry" cols="40" rows="5"></textarea>
       <input type="submit" value="Submit">
     </form>
   </div>

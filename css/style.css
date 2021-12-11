@@ -3,13 +3,6 @@
     overflow: hidden;
 }
 
-#blogentry
-{
-    height:200px;
-    font-size:14pt;
-}
-
-
 .navbar a {
     float: left;
     color: black;
