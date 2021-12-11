@@ -24,31 +24,10 @@ function createNewBlog() {
     else document.getElementById("createButton").value = "Cancel";
 }
 
+function getInputValue(){
+    // Selecting the input element and get its value
+    var inputVal = document.getElementById("myInput").value;
 
-
-var msg = document.getElementById("message");
-var create = document.getElementById("create");
-var postButton = document.getElementById("postButton");
-var textBox = document.getElementById("textbox");
-
-create.addEventListener("click", function () {
-    var str = textBox.value;
-    console.log(str);
-});
-
-// This event is fired when button is clicked
-postButton.addEventListener("click", function () {
-    var str = textBox.value;
-    console.log(str);
-    msg.innerHTML += " <p>" + str + "</p>";
-});
-
-textBox.addEventListener("keyup", function (event) {
-
-    // Checking if key pressed is ENTER or not
-    // if the key pressed is ENTER
-    // click listener on button is called
-    if (event.keyCode == 13) {
-        button.click();
-    }
-});
+    // Displaying the value
+    alert(inputVal);
+}

@@ -26,7 +26,7 @@
 
   <input type="button" name="create" id="createButton" value="Create New" onclick="createNewBlog()" />
   <div id="createBlog"  style="display:none;" class="answer_list" >
-      <label for="message">Tell us about the time you did that thing!</label>
+      <label for="message" style="text-align:center">Tell us about the time you did that thing!</label>
           <br><br>
 
           <!-- Textbox -->
@@ -34,7 +34,7 @@
           <br><br>
 
           <!-- Button we want to trigger on ENTER in Textbox -->
-          <button id="postButton">Post to Blogapalooza!</button>
+          <button id="postButton" onclick="getInputValue();">Post to Blogapalooza!</button>
 
           <!-- The div element in which we will
               append our data from text box -->
