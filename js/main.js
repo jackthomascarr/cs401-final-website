@@ -46,6 +46,9 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
 
-    alert(post.blogTitle);
+    var container = document.getElementById("container");
+    var section = document.getElementById("mainsection");
+    container.appendChild(section.cloneNode(true));
+
 
 }
