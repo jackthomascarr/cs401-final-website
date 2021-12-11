@@ -13,7 +13,7 @@
 
 <body>
   <div class="navbar" id="navId">
-    <img src="Blogapalooza (2).jpeg" alt="logo" width="50%" height="50%" style="float:left"/>
+    <img src="Blogapalooza (2).jpeg" alt="logo" width="45%" height="45%" style="float:left"/>
      <a href="#contact">Contact</a>
      <a href="#about">About</a>
      <a href="#home" class="active">Home</a>
