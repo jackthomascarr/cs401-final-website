@@ -14,7 +14,7 @@ function myFunction() {
 }
 
 function createNewBlog() {
-    if (document.getElementById('createBlog').style.display = "none")
+    if (document.getElementById('createBlog').style.display == "none")
         document.getElementById('createBlog').style.display = "block";
     else document.getElementById('createBlog').style.display = "none";
     if (document.getElementById("createButton").value =="Cancel") document.getElementById("createButton").value = "Create New";

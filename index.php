@@ -34,7 +34,7 @@
           <br><br>
 
           <!-- Button we want to trigger on ENTER in Textbox -->
-          <button id="button">GeeksForGeeks</button>
+          <button id="button">Post to Blogapalooza!</button>
 
           <!-- The div element in which we will
               append our data from text box -->
