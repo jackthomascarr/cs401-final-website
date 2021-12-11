@@ -13,6 +13,7 @@
 
 <body>
   <div class="navbar" id="navId">
+    <img src="Blogapalooza-logo.jpeg" alt="logo" />
     <a href="#home" class="active">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
