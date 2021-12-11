@@ -12,28 +12,19 @@
 
 
 <body>
-  <div class="navbar" id="navId">
-    <a href="#home" class="active">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    </a>
-  </div>
+    <label for="message">Enter Your Message:</label>
+        <br><br>
 
-  <div class="header">
-    <h2>Blog Name</h2>
-  </div>
+        <!-- Textbox -->
+        <input type="text" id="textbox" name="message">
+        <br><br>
 
-  <div class="row">
-    <form action="/action_page.php">
-      <textarea name="blogentry" cols="40" rows="5"></textarea>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+        <!-- Button we want to trigger on ENTER in Textbox -->
+        <button id="button">GeeksForGeeks</button>
 
-  <div class="footer">
-    <h2>Footer</h2>
-  </div>
+        <!-- The div element in which we will
+            append our data from text box -->
+        <div id="message"></div>
 </body>
   <script src="js/main.js"></script>
 </html>
