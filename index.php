@@ -24,7 +24,9 @@
     <h2>Blog Name</h2>
   </div>
 
-  <input type="button" name="create" id="createButton" class="createButton" value="Create New Post" onclick="createNewBlog()" />
+  <div class="buttonDiv">
+      <input type="button" name="create" id="createButton" class="createButton" value="Create New Post" onclick="createNewBlog()" />
+  </div>
   <br>
   <div id="createBlog"  style="display:none;" class="createBlog" >
       <h3 style="text-align:center">Tell us about the time you did that thing!</h2>
