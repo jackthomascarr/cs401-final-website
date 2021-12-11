@@ -21,7 +21,7 @@ function createNewBlog() {
 
     if (document.getElementById("createButton").value =="Cancel") {
         document.getElementById("createButton").value = "Create New Post";
-        document.getElementById("createButton").style = "background-color: none";
+        document.getElementById("createButton").style = "background-color: #7deb34";
     }
     else {
         document.getElementById("createButton").value = "Cancel";

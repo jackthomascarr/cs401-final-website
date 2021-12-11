@@ -13,13 +13,13 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #d7dadb;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-    background-color: #E78B48;
+    background-color: #2996cc;
     color: white;
 }
 
@@ -43,7 +43,7 @@ input {
 .postButton {
     border: none;
     background-color: #7deb34;
-    color: black;
+    color: white;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -60,7 +60,8 @@ input {
 
 .createButton {
     border: none;
-    color: black;
+    color: white;
+    background-color: #2996cc;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
