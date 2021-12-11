@@ -42,14 +42,14 @@ input {
 
 .postButton {
     border: none;
-    background-color: #298CD6;
+    background-color: #F2BAE4;
     color: white;
-    padding: 10px 24px;
+    padding: 5px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: Blippo, fantasy;
-    font-size: 18px;
+    font-size: 10px;
     margin: 5px 3px;
     border-radius: 25px;
 }
@@ -62,12 +62,12 @@ input {
     border: none;
     color: white;
     background-color: #298CD6;
-    padding: 10px 24px;
+    padding: 5px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: Blippo, fantasy;
-    font-size: 18px;
+    font-size: 10px;
     margin: 5px 3px;
     border-radius: 25px;
 }
