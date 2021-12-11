@@ -13,12 +13,12 @@
 
 <body>
   <div class="navbar" id="navId">
-    <img src="Blogapalooza (1).jpeg" alt="logo" />
-    <a href="#home" class="active">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    </a>
+    <img src="Blogapalooza (1).jpeg" alt="logo" width="50%" height="50%"/>
+//     <a href="#home" class="active">Home</a>
+//     <a href="#about">About</a>
+//     <a href="#contact">Contact</a>
+//     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+//     </a>
   </div>
 
   <div class="header">
