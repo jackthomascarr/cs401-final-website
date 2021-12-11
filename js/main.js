@@ -46,7 +46,7 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
 
-    var table = document.getElementById("myTable");
+    var table = document.getElementById("blogTable");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
     cell1.innerHTML = post.blogBody;
