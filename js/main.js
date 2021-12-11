@@ -70,5 +70,5 @@ for(var i = 1; i < table.rows.length; i++)
 }
 
 function deleteRow(i){
-    document.getElementById('myTable').deleteRow(i)
+    document.getElementById('blogTable').deleteRow(i)
 }
