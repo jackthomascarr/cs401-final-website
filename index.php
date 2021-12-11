@@ -26,8 +26,7 @@
 
   <div class="row">
     <form action="/action_page.php">
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
+      <input type="text" id="blogentry" name="blogentry"><br><br>
       <input type="submit" value="Submit">
     </form>
   </div>
