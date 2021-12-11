@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #898EA2;
+    background-color: #d7dadb;
     overflow: hidden;
 }
 
@@ -13,7 +13,7 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #d7dadb;
+    background-color: white;
     color: black;
 }
 
