@@ -19,7 +19,7 @@
 
 /* Add a color to the active/current link */
 .navbar a.active {
-    background-color: #2996cc;
+    background-color: #298CD6;
     color: white;
 }
 
@@ -42,7 +42,7 @@ input {
 
 .postButton {
     border: none;
-    background-color: #7deb34;
+    background-color: #298CD6;
     color: white;
     padding: 10px 24px;
     text-align: center;
@@ -61,7 +61,7 @@ input {
 .createButton {
     border: none;
     color: white;
-    background-color: #2996cc;
+    background-color: #298CD6;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
