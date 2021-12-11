@@ -51,6 +51,7 @@ input {
     font-family: Blippo, fantasy;
     font-size: 18px;
     margin: 5px 3px;
+    border-radius: 25px;
 }
 
 .createBlog {
@@ -67,5 +68,6 @@ input {
     font-family: Blippo, fantasy;
     font-size: 18px;
     margin: 5px 3px;
+    border-radius: 25px;
 }
 
