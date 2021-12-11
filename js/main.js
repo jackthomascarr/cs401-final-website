@@ -49,8 +49,8 @@ function getInputValue(){
     var table = document.getElementById("blogTable");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
-    cell1.innerHTML = "<td>" + post.blogTitle + "</td>"
-        + "<td><input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this.parentNode.parentNode.rowIndex)\"></td>"
+    cell1.innerHTML = "<td>" + post.blogTitle
+        + " <input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this.parentNode.parentNode.rowIndex)\"></td>"
         + "<p>" + post.blogBody + "</p>";
 }
 
