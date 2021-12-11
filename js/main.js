@@ -20,7 +20,7 @@ function createNewBlog() {
 
 
     if (document.getElementById("createButton").value =="Cancel")
-        document.getElementById("createButton").value = "Create New";
+        document.getElementById("createButton").value = "Create New Post";
     else document.getElementById("createButton").value = "Cancel";
 }
 

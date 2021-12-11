@@ -24,7 +24,8 @@
     <h2>Blog Name</h2>
   </div>
 
-  <input type="button" name="create" id="createButton" value="Create New" onclick="createNewBlog()" />
+  <input type="button" name="create" id="createButton" value="Create New Post" onclick="createNewBlog()" />
+  <br><br>
   <div id="createBlog"  style="display:none;" class="answer_list" >
       <label for="message" style="text-align:center">Tell us about the time you did that thing!</label>
           <br><br>
