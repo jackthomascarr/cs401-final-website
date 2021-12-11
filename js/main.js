@@ -17,7 +17,10 @@ function createNewBlog() {
     if (document.getElementById('createBlog').style.display == "none")
         document.getElementById('createBlog').style.display = "block";
     else document.getElementById('createBlog').style.display = "none";
-    if (document.getElementById("createButton").value =="Cancel") document.getElementById("createButton").value = "Create New";
+
+
+    if (document.getElementById("createButton").value =="Cancel")
+        document.getElementById("createButton").value = "Create New";
     else document.getElementById("createButton").value = "Cancel";
 }
 
@@ -25,17 +28,16 @@ function createNewBlog() {
 
 var msg = document.getElementById("message");
 var create = document.getElementById("create");
-var button = document.getElementById("button");
+var postButton = document.getElementById("postButton");
 var textBox = document.getElementById("textbox");
 
 create.addEventListener("click", function () {
     var str = textBox.value;
-    create.value = "Cancel"
     console.log(str);
 });
 
 // This event is fired when button is clicked
-button.addEventListener("click", function () {
+postButton.addEventListener("click", function () {
     var str = textBox.value;
     console.log(str);
     msg.innerHTML += " <p>" + str + "</p>";
