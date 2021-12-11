@@ -13,9 +13,19 @@ function myFunction() {
     }
 }
 
+function createNewBlog() {
+    document.getElementById('createBlog').style.display = "block";
+}
+
 var msg = document.getElementById("message");
+var create = document.getElementById("create");
 var button = document.getElementById("button");
 var textBox = document.getElementById("textbox");
+
+create.addEventListener("click", function () {
+    var str = textBox.value;
+    console.log(str);
+});
 
 // This event is fired when button is clicked
 button.addEventListener("click", function () {

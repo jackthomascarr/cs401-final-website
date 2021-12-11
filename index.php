@@ -12,6 +12,7 @@
 
 
 <body>
+    <div id="createBlog"  style="display:none;" class="answer_list" >
     <label for="message">Enter Your Message:</label>
         <br><br>
 
@@ -25,6 +26,8 @@
         <!-- The div element in which we will
             append our data from text box -->
         <div id="message"></div>
+    </div>
+    <input type="button" name="create" value="Show Div" onclick="createNewBlog()" />
 </body>
   <script src="js/main.js"></script>
 </html>
