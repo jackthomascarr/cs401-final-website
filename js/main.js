@@ -46,9 +46,10 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
 
-    var container = document.getElementById("container");
-    var section = document.getElementById("mainsection");
-    container.appendChild(section.cloneNode(true));
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(0);
+    var cell1 = row.insertCell(0);
+    cell1.innerHTML = post.blogBody;
 
 
 }

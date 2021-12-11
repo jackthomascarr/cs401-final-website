@@ -45,24 +45,8 @@
           <div id="message"></div>
   </div>
 
-  <div id="container">
-    <section id="mainsection">
-      <table>
-        <thead>
-          <tr>
-          <th>Field 1</th>
-          <th>Field 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><input type="text" name="f1" /></td>
-            <td><input type="text" name="f2" /></td>
-          </tr>
-        </tbody>
+      <table id="blogTable">
       </table>
-    </section>
-  </div>
 
 
 </body>
