@@ -16,7 +16,7 @@
         <br><br>
 
         <!-- Textbox -->
-        <input type="text" id="textbox" name="message">
+        <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
         <br><br>
 
         <!-- Button we want to trigger on ENTER in Textbox -->
