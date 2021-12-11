@@ -44,9 +44,10 @@
               append our data from text box -->
           <div id="message"></div>
   </div>
-
-      <table id="blogTable">
-      </table>
+  <main class="main">
+  <ul id="blogEntries">
+  </ul>
+  </main>
 
 
 </body>

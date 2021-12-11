@@ -1,4 +1,6 @@
 
+const ul = document.querySelector('#blogEntries');
+const main = document.querySelector('.main');
 
 function helloJS()
 {
@@ -45,16 +47,69 @@ function getInputValue(){
     title = document.getElementById("title").value;
     post.blogTitle = title;
     post.blogBody = inputVal;
+    blogPosts.add(post);
+    const li = createLi();
+    ul.appendChild(li);
 
-    var table = document.getElementById("blogTable");
-    var row = table.insertRow(0);
-    var cell1 = row.insertCell(0);
-    cell1.innerHTML = "<td>" + "<h2>" + post.blogTitle
-        + "<input type=\"button\" style=\"float:right;\" value=\"Delete\" onclick=\"deleteRow(this.parentNode.parentNode.rowIndex)\"></h2></td>"
-        + "<p>" + post.blogBody + "</p>";
 }
 
+function createLi(post) {
+    const li = document.createElement('li');
+    const span = document.createElement('span');
+    span.textContent = post.blogTitle;
+    const label = document.createElement('label');
+    label.textContent = post.blogBody;
+    const edit = document.createElement('button');
+    edit.textContent = 'edit';
+    const removeBtn = document.createElement('button');
+    removeBtn.textContent = 'delete';
 
-function deleteRow(i){
-    document.getElementById('blogTable').deleteRow(i)
+    li.appendChild(span);
+    li.appendChild(label);
+    li.appendChild(edit);
+    li.appendChild(removeBtn);
+
+    return li;
 }
+
+ul.addEventListener('click', (event) => {
+    if(event.target.tagName === 'BUTTON') {
+        const button = event.target;
+        const li = button.parentNode;
+        const ul = li.parentNode;
+        if(button.textContent === 'remove') {
+            ul.removeChild(li);
+        } else if(button.textContent === 'edit') {
+            const span = li.firstElementChild;
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = span.textContent;
+            li.insertBefore(input, span);
+            li.removeChild(span);
+            button.textContent = 'save';
+        } else if(button.textContent === 'save') {
+            const input = li.firstElementChild;
+            const span = document.createElement('span');
+            span.textContent = input.value;
+            li.insertBefore(span, input);
+            li.removeChild(input);
+            button.textContent = 'edit';
+        }
+    }
+});
+
+const div = document.createElement('div');
+div.className = 'showHide';
+const filterLabel = document.createElement('label');
+filterLabel.textContent = 'Hide those who have not responded';
+const lis = ul.children;
+
+div.appendChild(filterLabel);
+main.insertBefore(div, ul);
+
+        for(let i = 0; i < lis.length; i++) {
+            var li = lis[i];
+            li.style.display = '';
+        }
+
+
