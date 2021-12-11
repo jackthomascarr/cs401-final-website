@@ -40,3 +40,8 @@ input {
     margin-right: auto;
 }
 
+.postButton {
+    position: center;
+    color: #7deb34;
+}
+
