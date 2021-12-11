@@ -30,7 +30,7 @@
           <br><br>
 
           <!-- Textbox -->
-          <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
+          <textarea class="defaultTextBox" name="textbox" id="textbox" cols="40" rows="5"></textarea>
           <br><br>
 
           <!-- Button we want to trigger on ENTER in Textbox -->
@@ -41,13 +41,6 @@
           <div id="message"></div>
   </div>
 
-  <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
 
 </body>
   <script src="js/main.js"></script>

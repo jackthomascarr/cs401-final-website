@@ -28,6 +28,10 @@
     font-family: Blippo, fantasy;
 }
 
-textarea{
-    text-align: center;
+.defaultTextBox {
+    position: center;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
 }
