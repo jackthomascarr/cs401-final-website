@@ -46,6 +46,6 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
 
-    alert(post);
+    alert(post.blogTitle);
 
 }
