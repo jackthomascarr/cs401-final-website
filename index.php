@@ -30,7 +30,7 @@
           <br><br>
 
           <!-- Textbox -->
-          <textarea class="defaultTextBox" name="textbox" id="textbox" cols="40" rows="5"></textarea>
+          <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
           <br><br>
 
           <!-- Button we want to trigger on ENTER in Textbox -->
