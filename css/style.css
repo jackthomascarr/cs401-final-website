@@ -51,10 +51,17 @@ input {
     font-family: Blippo, fantasy;
     font-size: 18px;
     margin: 5px 3px;
-    cursor: pointer;
 }
 
 .createBlog {
+    border: none;
+    color: black;
+    padding: 10px 24px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Blippo, fantasy;
+    font-size: 18px;
+    margin: 5px 3px;
 }
 
