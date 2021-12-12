@@ -71,11 +71,12 @@ ul.addEventListener('click', (event) => {
 const div = document.createElement('div');
 const label = document.createElement('label');
 const list = ul.children;
-console.log(lis);
+console.log(list);
 
 div.appendChild(label);
 main.insertBefore(div, ul);
 
+//displays all of the blog posts to live posts page
 for(let i = 0; i < list.length; i++) {
     var li = list[i];
     li.style.display = '';
