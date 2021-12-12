@@ -82,7 +82,7 @@ ul.addEventListener('click', (event) => {
             const span = li.firstElementChild;
             const label = li.firstElementChild.nextElementSibling;
             const inputSpan = document.createElement('input');
-            const inputLabel = document.createElement('input');
+            const inputLabel = document.createElement('textarea');
             inputSpan.type = 'text';
             inputSpan.value = span.textContent;
             li.insertBefore(inputSpan, span);
