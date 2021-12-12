@@ -80,7 +80,8 @@ input {
     margin: 200px 3px 5px;
 }
 
-.postButton:hover {
+
+.createButton:hover {
     background-color: darkgrey;
 }
 
@@ -119,7 +120,9 @@ input {
     font-family: Blippo, fantasy;
     font-size: 10px;
     margin: 5px 3px;
-    border-radius: 25px
+    border-radius: 25px;
+    width: 10%;
+    height: 20px;
 }
 
 #blogEntries li removeButton {
@@ -133,7 +136,9 @@ input {
     font-family: Blippo, fantasy;
     font-size: 10px;
     margin: 5px 3px;
-    border-radius: 25px
+    border-radius: 25px;
+    width: 10%;
+    height: 20px;
 }
 
 
