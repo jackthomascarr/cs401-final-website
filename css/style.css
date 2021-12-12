@@ -125,6 +125,10 @@ input {
     border-radius: 25px;
 }
 
+#blogEntries li button:hover {
+    background-color: darkgrey;
+}
+
 #blogEntries li removeButton {
     border: none;
     color: white;
@@ -137,6 +141,10 @@ input {
     font-size: 15px;
     margin: 5px 3px;
     border-radius: 25px;
+}
+
+#blogEntries li removeButton:hover {
+    background-color: darkgrey;
 }
 
 
