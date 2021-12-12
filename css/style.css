@@ -73,11 +73,11 @@ input {
     display: inline-block;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px 3px;
     border-radius: 25px;
     width: 30%;
     height: 50px;
-    padding: 100px 12px 5px;
+    padding: 12px 5px;
+    margin: 200px 3px 5px;
 }
 
 .postButton:hover {
