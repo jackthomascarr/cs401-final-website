@@ -71,11 +71,12 @@ function createLi(post) {
 }
 
 ul.addEventListener('click', (event) => {
-    if(event.target.tagName === 'BUTTON') {
+    if(event.target.tagName === 'BUTTON' || event.target.tagName === 'REMOVEBUTTON') {
         const button = event.target;
+        const removeButton = event.target;
         const li = button.parentNode;
         const ul = li.parentNode;
-        if(button.textContent === 'delete') {
+        if(removeButton.textContent === 'delete') {
             ul.removeChild(li);
         } else if(button.textContent === 'edit') {
             const span = li.firstElementChild;

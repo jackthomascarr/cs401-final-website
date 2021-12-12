@@ -78,17 +78,17 @@ input {
 
 
 #blogEntries li {
-    padding: 20px;
-    margin: 0 0 10px;
-    border-radius: .2em;
-    border: 1px solid #eee;
+    padding: 30px;
+    margin: 0 0 15px;
+    border: 1px solid;
+    border-style: dot-dot-dash;
 }
 
 #blogEntries li label {
     font-size: 14px;
     display: block;
     margin: 0 0 10px;
-    color: rgba(112, 112, 112, .55);
+    color: darkgray;
 }
 
 #blogEntries li button {
