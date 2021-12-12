@@ -93,11 +93,16 @@ ul.addEventListener('click', (event) => {
             li.removeChild(label);
             button.textContent = 'save';
         } else if(button.textContent === 'save') {
-            const input = li.firstElementChild;
+            const inputSpan = li.firstElementChild;
+            const inputLabel = li.firstElementChild.nextElementSibling;
             const span = document.createElement('span');
-            span.textContent = input.value;
-            li.insertBefore(span, input);
-            li.removeChild(input);
+            const label = document.createElement('label');
+            span.textContent = inputSpan.value;
+            label.textContent = inputLabel.value;
+            li.insertBefore(span, inputSpan);
+            li.removeChild(inputSpan);
+            li.insertBefore(label, inputLabel);
+            li.removeChild(inputLabel);
             button.textContent = 'edit';
         }
     }
