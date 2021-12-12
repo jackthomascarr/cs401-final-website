@@ -96,11 +96,8 @@ input {
     margin: 0 0 10px;
     color: darkgray;
     word-break: break-word;
-    width: 50%;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #blogEntries li button {
