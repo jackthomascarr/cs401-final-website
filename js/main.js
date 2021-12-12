@@ -88,7 +88,7 @@ ul.addEventListener('click', (event) => {
             li.insertBefore(inputSpan, span);
             li.removeChild(span);
             inputLabel.type = 'text';
-            inputLabel.value = span.textContent;
+            inputLabel.value = label.textContent;
             li.insertBefore(inputLabel, label);
             li.removeChild(label);
             button.textContent = 'save';
