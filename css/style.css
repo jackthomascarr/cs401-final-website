@@ -80,8 +80,6 @@ input {
 #blogEntries li {
     padding: 30px;
     margin: 0 0 15px;
-    border: 1px solid;
-    border-style: dot-dot-dash;
 }
 
 #blogEntries li span {
