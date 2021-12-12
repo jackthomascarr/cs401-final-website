@@ -48,8 +48,6 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
     localStorage["post"] = post;
-    const li = createLi(post);
-    ul.appendChild(li);
 }
 
 
