@@ -2,9 +2,9 @@ const ul = document.querySelector('#blogEntries');
 const main = document.querySelector('.main');
 
 
-var postTitle = localStorage["postTitle"];
-var postBody = localStorage["postBody"];
-
+for(i=0; i<localStorage.length; i++){
+const postTitle = localStorage.key(i);
+const postBody = localStorage.getItem(postTitle);
 if(postTitle.length > 0 & postBody.length > 0){
     const li = document.createElement('li');
     const span = document.createElement('span');
@@ -22,6 +22,7 @@ if(postTitle.length > 0 & postBody.length > 0){
     li.appendChild(deleteButton);
 
     ul.append(li);
+}
 }
 
 ul.addEventListener('click', (event) => {
