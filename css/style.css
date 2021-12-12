@@ -98,7 +98,9 @@ input {
     word-break: break-word;
     width: 50%;
     text-align: center;
-    position: relative;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 #blogEntries li button {
