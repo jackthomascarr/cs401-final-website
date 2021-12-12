@@ -47,7 +47,7 @@ function getInputValue(){
     title = document.getElementById("title").value;
     post.blogTitle = title;
     post.blogBody = inputVal;
-    const li = createLi();
+    const li = createLi(post);
     ul.appendChild(li);
 }
 
