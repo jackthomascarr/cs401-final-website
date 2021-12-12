@@ -91,5 +91,17 @@ input {
     color: rgba(112, 112, 112, .55);
 }
 
+#invitedList li button {
+    font-size: 14px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: white;
+    background: #70b3ff;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
 
 
