@@ -8,9 +8,9 @@ var postBody = localStorage["postBody"];
 if(postTitle.length > 0 & postBody.length > 0){
     const li = document.createElement('li');
     const span = document.createElement('span');
-    span.textContent = post.blogTitle;
+    span.textContent = postTitle;
     const label = document.createElement('label');
-    label.textContent = post.blogBody;
+    label.textContent = postBody;
     const edit = document.createElement('button');
     edit.textContent = 'edit';
     const deleteButton = document.createElement('removeButton');
