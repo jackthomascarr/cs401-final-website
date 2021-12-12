@@ -32,9 +32,10 @@ ul.addEventListener('click', (event) => {
         const li = button.parentNode;
         const ul = li.parentNode;
         if(removeButton.textContent === 'delete') {
-            const test = li.firstElementChild;
-            console.log(test.value);
-            localStorage.removeItem(li.firstElementChild.value);
+            const title = li.firstElementChild;
+
+            console.log(title.textContent);
+            localStorage.removeItem(title.textContent);
             ul.removeChild(li);
         } else if(button.textContent === 'edit') {
             const span = li.firstElementChild;
