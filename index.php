@@ -41,17 +41,7 @@
               append our data from text box -->
           <div id="message"></div>
   </div>
-  </section>
-  <section id="live_posts">
-      <main class="main">
-      <ul id="blogEntries" style="text-align: center">
-      </ul>
-      </main>
-  </section>
 
-  <section id="contact">
-
-  </section>
 
 
 </body>
