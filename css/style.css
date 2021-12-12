@@ -84,6 +84,14 @@ input {
     border-style: dot-dot-dash;
 }
 
+#blogEntries li span {
+    font-size: 14px;
+    display: block;
+    margin: 0 0 10px;
+    color: black;
+    text-align: center;
+}
+
 #blogEntries li label {
     font-size: 14px;
     display: block;
