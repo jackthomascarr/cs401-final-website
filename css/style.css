@@ -70,6 +70,7 @@ input {
     font-size: 10px;
     margin: 5px 3px;
     border-radius: 25px;
+    width: 40%;
 }
 
 .buttonDiv{
@@ -96,8 +97,8 @@ input {
     margin: 0 0 10px;
     color: darkgray;
     word-break: break-word;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #blogEntries li button {
