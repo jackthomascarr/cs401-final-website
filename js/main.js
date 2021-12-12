@@ -80,7 +80,7 @@ ul.addEventListener('click', (event) => {
             ul.removeChild(li);
         } else if(button.textContent === 'edit') {
             const span = li.firstElementChild;
-            const label = $('li:first-child').next();
+            const label = li.firstElementChild.nextElementSibling;
             const inputSpan = document.createElement('input');
             const inputLabel = document.createElement('input');
             inputSpan.type = 'text';
