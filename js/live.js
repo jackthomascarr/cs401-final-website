@@ -54,6 +54,7 @@ ul.addEventListener('click', (event) => {
             const inputLabel = li.firstElementChild.nextElementSibling;
             const span = document.createElement('span');
             const label = document.createElement('label');
+            console.log(inputSpan.value);
             span.textContent = inputSpan.value;
             label.textContent = inputLabel.value;
             li.insertBefore(span, inputSpan);
