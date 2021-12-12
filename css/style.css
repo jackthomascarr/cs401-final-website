@@ -47,7 +47,8 @@ input {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 5px 3px;
     border-radius: 25px;
     width: 40%;
@@ -66,8 +67,8 @@ input {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: Blippo, fantasy;
-    font-size: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 5px 3px;
     border-radius: 25px;
     width: 40%;
@@ -76,6 +77,8 @@ input {
 
 .buttonDiv{
     text-align: center;
+    width:800px;
+    margin:0 auto;
 }
 
 
