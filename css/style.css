@@ -95,9 +95,9 @@ input {
     display: block;
     margin: 0 0 10px;
     color: darkgray;
-    text-align: center;
     word-break: break-word;
     width: 50%;
+    text-align: center;
 }
 
 #blogEntries li button {
