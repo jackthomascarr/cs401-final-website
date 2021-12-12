@@ -15,16 +15,13 @@
   <div class="navbar" id="navId">
     <img src="Blogapalooza (2).jpeg" alt="logo" width="45%" height="45%" style="float:left"/>
      <a href="#contact">Contact</a>
-     <a href="#about">About</a>
-     <a href="#home" class="active">Home</a>
+     <a href="#live_posts">Live Posts</a>
+     <a href="#create_section" class="active">Home</a>
      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
      </a>
   </div>
 
-  <div class="header">
-    <h2>Blog Name</h2>
-  </div>
-
+  <section id="create_section">
   <div class="buttonDiv">
       <input type="button" name="create" id="createButton" class="createButton" value="Create New Post" onclick="createNewBlog()" />
   </div>
@@ -44,10 +41,17 @@
               append our data from text box -->
           <div id="message"></div>
   </div>
-  <main class="main">
-  <ul id="blogEntries" style="text-align: center">
-  </ul>
-  </main>
+  </section>
+  <section id="live_posts">
+      <main class="main">
+      <ul id="blogEntries" style="text-align: center">
+      </ul>
+      </main>
+  </section>
+
+  <section id="contact">
+
+  </section>
 
 
 </body>
