@@ -2,8 +2,10 @@ const ul = document.querySelector('#blogEntries');
 const main = document.querySelector('.main');
 
 
-var post = localStorage["post"];
-console.log(post);
+var postTitle = localStorage["postTitle"];
+var postBody = localStorage["postBody"];
+console.log(postTitle);
+console.log(postBody);
 function createLi() {
     const li = document.createElement('li');
     const span = document.createElement('span');
