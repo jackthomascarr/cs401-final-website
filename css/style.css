@@ -75,4 +75,48 @@ input {
 .buttonDiv{
     text-align: center;
 }
+#blogEntries button {
+    padding: 0 1em;
+    font: 16px/1.4 'Mulish', sans-serif;
+    background: #70b3ff;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 40px;
+    transition: opacity 0.3s linear;
+}
+
+#blogEntries li {
+    padding: 20px;
+    margin: 0 0 10px;
+    border-radius: .2em;
+    border: 1px solid #eee;
+}
+
+#blogEntries li label {
+    font-size: 14px;
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(112, 112, 112, .55);
+}
+
+#blogEntries li button {
+    font-size: 14px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: white;
+    background: #70b3ff;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
+
+#blogEntries li button:last-child {
+    background: #ff7f7f;
+}
 
