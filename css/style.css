@@ -89,7 +89,6 @@ input {
     display: block;
     margin: 0 0 10px;
     color: black;
-    text-align: center;
 }
 
 #blogEntries li label {
@@ -97,7 +96,6 @@ input {
     display: block;
     margin: 0 0 10px;
     color: darkgray;
-    text-align: center;
 }
 
 #blogEntries li button {
