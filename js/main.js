@@ -47,7 +47,7 @@ function getInputValue(){
     title = document.getElementById("title").value;
     post.blogTitle = title;
     post.blogBody = inputVal;
-    localStorage["post"] = post;
+    localStorage["post"] = "test";
 }
 
 
