@@ -3,7 +3,7 @@ const main = document.querySelector('.main');
 
 
 var post = localStorage["post"];
-console.log(post);
+console.log(post.blogBody);
 function createLi() {
     const li = document.createElement('li');
     const span = document.createElement('span');
