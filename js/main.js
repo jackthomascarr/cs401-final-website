@@ -75,7 +75,7 @@ ul.addEventListener('click', (event) => {
         const button = event.target;
         const li = button.parentNode;
         const ul = li.parentNode;
-        if(button.textContent === 'remove') {
+        if(button.textContent === 'delete') {
             ul.removeChild(li);
         } else if(button.textContent === 'edit') {
             const span = li.firstElementChild;
@@ -97,9 +97,7 @@ ul.addEventListener('click', (event) => {
 });
 
 const div = document.createElement('div');
-div.className = 'showHide';
 const filterLabel = document.createElement('label');
-filterLabel.textContent = 'Hide those who have not responded';
 const lis = ul.children;
 console.log(lis);
 
