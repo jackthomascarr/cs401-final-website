@@ -8,6 +8,8 @@ email: jackcarr@u.boisestate.edu
 If you php install on your machine, simply go the the directory containing the files and run command below!
 user@something cs401-final-website % php -S localhost:3000
 
+Then go to your browser and type in 'localhost:3000' and the page will show up!
+
 ## Bugs
 
 There is one known bug in this assignment that had me scratching my head for a while.
