@@ -50,7 +50,6 @@ function getInputValue(){
     blogPosts.add(post);
     const li = createLi();
     ul.appendChild(li);
-
 }
 
 function createLi(post) {
@@ -103,13 +102,14 @@ div.className = 'showHide';
 const filterLabel = document.createElement('label');
 filterLabel.textContent = 'Hide those who have not responded';
 const lis = ul.children;
+console.log(lis);
 
 div.appendChild(filterLabel);
 main.insertBefore(div, ul);
 
-        for(let i = 0; i < lis.length; i++) {
-            var li = lis[i];
-            li.style.display = '';
-        }
+for(let i = 0; i < lis.length; i++) {
+    var li = lis[i];
+    li.style.display = '';
+}
 
 
