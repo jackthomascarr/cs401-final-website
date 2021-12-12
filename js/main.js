@@ -2,13 +2,6 @@
 const ul = document.querySelector('#blogEntries');
 const main = document.querySelector('.main');
 
-function helloJS()
-{
-    alert("The Dude Abides FOR REAL! (this is from the file js/main.js)");
-}
-
-const blogPosts = [];
-
 const post = {
     blogTitle: "",
     blogBody: ""

@@ -21,25 +21,19 @@
      </a>
   </div>
 
-  <section id="create_section">
-  <div class="buttonDiv">
+  <div class="center">
       <input type="button" name="create" id="createButton" class="createButton" value="Create New Post" onclick="createNewBlog()" />
   </div>
   <br>
-  <div id="createBlog"  style="display:none; width:800px; margin:0 auto;" class="createBlog" >
+  <div id="createBlog"  style="display:none; width:800px; margin:0 auto;" class="center" >
       <h3 style="text-align:center">Tell us about the time you did that thing!</h3>
 
-           <input type="text" id="title" name="title" placeholder="Enter a Funky Title Here!"><br>
-          <!-- Body Textbox -->
-          <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
-          <br><br>
+        <input type="text" id="title" name="title" placeholder="Enter a Funky Title Here!"><br>
+        <textarea name="textbox" id="textbox" cols="40" rows="5"></textarea>
+        <br><br>
+        <button id="postButton" class="postButton" onclick="getInputValue();">Post to Blogapalooza!</button>
 
-          <!-- Button we want to trigger on ENTER in Textbox -->
-          <button id="postButton" class="postButton" onclick="getInputValue();">Post to Blogapalooza!</button>
 
-          <!-- The div element in which we will
-              append our data from text box -->
-          <div id="message"></div>
   </div>
 
 
