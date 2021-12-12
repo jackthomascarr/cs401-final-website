@@ -1,7 +1,7 @@
 const ul = document.querySelector('#blogEntries');
 const main = document.querySelector('.main');
 
-
+//this loops through local storage (where I store blog content) and appends to list
 for(i=0; i<localStorage.length; i++){
 const postTitle = localStorage.key(i);
 const postBody = localStorage.getItem(postTitle);
@@ -25,6 +25,8 @@ if(postTitle.length > 0 & postBody.length > 0){
 }
 }
 
+
+//this event listener deals with delete/edit/save functionality
 ul.addEventListener('click', (event) => {
     if(event.target.tagName === 'BUTTON' || event.target.tagName === 'REMOVEBUTTON') {
         const button = event.target;
@@ -33,7 +35,7 @@ ul.addEventListener('click', (event) => {
         const ul = li.parentNode;
         if(removeButton.textContent === 'delete') {
             const title = li.firstElementChild;
-            localStorage.removeItem(title.textContent);
+            localStorage.removeItem(title.textContent); //removes from local storage based of key value
             ul.removeChild(li);
         } else if(button.textContent === 'edit') {
             const span = li.firstElementChild;
@@ -42,11 +44,11 @@ ul.addEventListener('click', (event) => {
             const inputLabel = document.createElement('textarea');
             inputSpan.type = 'text';
             inputSpan.value = span.textContent;
-            li.insertBefore(inputSpan, span);
+            li.insertBefore(inputSpan, span); //replaces title with new edited title
             li.removeChild(span);
             inputLabel.type = 'text';
             inputLabel.value = label.textContent;
-            li.insertBefore(inputLabel, label);
+            li.insertBefore(inputLabel, label); //replaces body of blog with new edited version
             li.removeChild(label);
             button.textContent = 'save';
         } else if(button.textContent === 'save') {
@@ -55,7 +57,7 @@ ul.addEventListener('click', (event) => {
             const span = document.createElement('span');
             const label = document.createElement('label');
             console.log(inputSpan.value);
-            span.textContent = inputSpan.value;
+            span.textContent = inputSpan.value; //sets new values as the vales inputed by user
             label.textContent = inputLabel.value;
             li.insertBefore(span, inputSpan);
             li.removeChild(inputSpan);
@@ -67,14 +69,14 @@ ul.addEventListener('click', (event) => {
 });
 
 const div = document.createElement('div');
-const filterLabel = document.createElement('label');
-const lis = ul.children;
+const label = document.createElement('label');
+const list = ul.children;
 console.log(lis);
 
-div.appendChild(filterLabel);
+div.appendChild(label);
 main.insertBefore(div, ul);
 
-for(let i = 0; i < lis.length; i++) {
-    var li = lis[i];
+for(let i = 0; i < list.length; i++) {
+    var li = list[i];
     li.style.display = '';
 }

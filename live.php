@@ -19,13 +19,10 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     </a>
 </div>
-
     <main class="main">
         <ul id="blogEntries" style="text-align: center">
         </ul>
     </main>
-
-
 
 </body>
 <script src="js/live.js"></script>
