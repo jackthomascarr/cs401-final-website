@@ -3,8 +3,10 @@ const main = document.querySelector('.main');
 
 
 for(i=0; i<localStorage.length; i++){
-const postTitle = localStorage.key(i);
-const postBody = localStorage.getItem(postTitle);
+    const key = localStorage.key(i);
+    const value = localStorage.getItem(key);
+const postTitle = '${key}';
+const postBody = '${value}';
 if(postTitle.length > 0 & postBody.length > 0){
     const li = document.createElement('li');
     const span = document.createElement('span');
