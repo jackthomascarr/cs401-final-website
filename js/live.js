@@ -4,9 +4,8 @@ const main = document.querySelector('.main');
 
 var postTitle = localStorage["postTitle"];
 var postBody = localStorage["postBody"];
-console.log(postTitle);
-console.log(postBody);
-function createLi() {
+
+if(postTitle.length > 0 & postBody.length > 0){
     const li = document.createElement('li');
     const span = document.createElement('span');
     span.textContent = post.blogTitle;
@@ -22,7 +21,6 @@ function createLi() {
     li.appendChild(edit);
     li.appendChild(deleteButton);
 
-    return li;
 }
 
 ul.addEventListener('click', (event) => {
