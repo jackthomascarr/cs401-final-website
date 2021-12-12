@@ -42,6 +42,11 @@
           <div id="message"></div>
   </div>
 
+      <main class="main">
+          <ul id="blogEntries" style="text-align: center">
+          </ul>
+      </main>
+
 
 
 </body>
