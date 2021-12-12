@@ -14,7 +14,7 @@
 <body>
   <div class="navbar" id="navId">
     <img src="Blogapalooza (2).jpeg" alt="logo" width="45%" height="45%" style="float:left"/>
-     <a href="#contact">Contact</a>
+      <a href="about.php">About this site</a>
      <a href="#live_posts">Live Posts</a>
      <a href="#create_section" class="active">Home</a>
      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
