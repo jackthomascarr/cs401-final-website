@@ -59,13 +59,13 @@ function createLi(post) {
     label.textContent = post.blogBody;
     const edit = document.createElement('button');
     edit.textContent = 'edit';
-    const removeBtn = document.createElement('button');
-    removeBtn.textContent = 'delete';
+    const deleteButton = document.createElement('removeButton');
+    deleteButton.textContent = 'delete';
 
     li.appendChild(span);
     li.appendChild(label);
     li.appendChild(edit);
-    li.appendChild(removeBtn);
+    li.appendChild(deleteButton);
 
     return li;
 }

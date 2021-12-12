@@ -105,5 +105,19 @@ input {
     border-radius: 25px
 }
 
+#blogEntries li removeButton {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Blippo, fantasy;
+    font-size: 10px;
+    margin: 5px 3px;
+    border-radius: 25px
+}
+
 
 
