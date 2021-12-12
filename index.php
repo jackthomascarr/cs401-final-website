@@ -21,6 +21,7 @@
      </a>
   </div>
 
+  <div class = "center">
   <div class="center">
       <input type="button" name="create" id="createButton" class="createButton" value="Create New Post" onclick="createNewBlog()" />
   </div>
@@ -34,6 +35,7 @@
         <button id="postButton" class="postButton" onclick="getInputValue();">Post to Blogapalooza!</button>
 
 
+  </div>
   </div>
 
 
