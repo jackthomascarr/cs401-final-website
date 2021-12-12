@@ -48,6 +48,7 @@ function getInputValue(){
     post.blogTitle = title;
     post.blogBody = inputVal;
     localStorage.setItem(post.blogTitle, post.blogBody)
+    alert("Successfully posted your blog entry! Head to live posts page to look at it and your other posts!");
 }
 
 
