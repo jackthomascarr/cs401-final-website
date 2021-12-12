@@ -3,7 +3,8 @@ const main = document.querySelector('.main');
 
 
 var post = localStorage["post"];
-
+console.log(post);
+function createLi() {
     const li = document.createElement('li');
     const span = document.createElement('span');
     span.textContent = post.blogTitle;
@@ -19,7 +20,8 @@ var post = localStorage["post"];
     li.appendChild(edit);
     li.appendChild(deleteButton);
 
-
+    return li;
+}
 
 ul.addEventListener('click', (event) => {
     if(event.target.tagName === 'BUTTON' || event.target.tagName === 'REMOVEBUTTON') {
