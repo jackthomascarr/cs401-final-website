@@ -21,6 +21,7 @@ if(postTitle.length > 0 & postBody.length > 0){
     li.appendChild(edit);
     li.appendChild(deleteButton);
 
+    ul.append(li);
 }
 
 ul.addEventListener('click', (event) => {
